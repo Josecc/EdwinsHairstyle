@@ -1,0 +1,32 @@
+:host {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 40px;
+
+  .wrapper {
+    padding: 10px 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    max-width: 800px;
+    width: 100%;
+  }
+}
+
+:host([theme='light']) {
+  .wrapper {
+    background-color: rgba($color-white, 0.9);
+    color: $color-black;
+  }
+}
+
+:host([theme='dark']) {
+  .wrapper {
+    background-color: rgba($color-black, 0.9);
+    color: $color-white;
+  }
+}
+

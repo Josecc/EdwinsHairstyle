@@ -1,0 +1,23 @@
+:host {
+  display: block;
+
+  padding: 20px;
+
+  @include tablet {
+    padding: 48px 64px;
+  }
+}
+
+:host([color='red']) {
+  background-color: $color-red;
+  color: $color-white;
+}
+
+:host([color='white']) {
+  background-color: $color-white;
+}
+
+:host([color='black']) {
+  background-color: $color-black;
+  color: $color-white;
+}
