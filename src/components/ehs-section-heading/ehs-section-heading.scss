@@ -4,7 +4,11 @@
   text-align: center;
   width: 100%;
   font-family: 'Work Sans', sans-serif;
-  font-size: 40px;
+  font-size: 20px;
+
+  @include tablet {
+    font-size: 40px;
+  }
 
   .wrapper {
     padding: 10px 10px;
