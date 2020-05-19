@@ -18,20 +18,10 @@ export class AppRoot {
           <ehs-view-contact></ehs-view-contact>
         </ehs-section>
         <ehs-section color='white' heading='A family business.'>
-        <p>
-          Welcome to the Stencil App Starter.
-          You can use this starter to build entire apps all with
-          web components using Stencil!
-          Check out our docs on <a href='https://stenciljs.com'>stenciljs.com</a> to get started.
-        </p>
+          <ehs-view-about></ehs-view-about>
         </ehs-section>
         <ehs-section color='black' heading='Style, with a touch.'>
-        <p>
-          Welcome to the Stencil App Starter.
-          You can use this starter to build entire apps all with
-          web components using Stencil!
-          Check out our docs on <a href='https://stenciljs.com'>stenciljs.com</a> to get started.
-        </p>
+          <p>prices go here</p>
         </ehs-section>
         </main>
       </div>

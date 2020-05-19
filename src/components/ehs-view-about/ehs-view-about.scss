@@ -1,0 +1,25 @@
+:host {
+  display: flex;
+  flex-flow: column;
+  background-color: rgba($color-black, 0.9);
+  color: white;
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 40px;
+
+  @include tablet {
+    flex-flow: row;
+  }
+
+  .column-1 {
+    @include tablet {
+      margin-right: 15px;
+    }
+  }
+
+  .column-2 {
+    @include tablet {
+      margin-left: 15px;
+    }
+  }
+}
