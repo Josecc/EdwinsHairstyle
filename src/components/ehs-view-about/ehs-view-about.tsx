@@ -12,7 +12,7 @@ export class EhsViewAbout {
       <Host>
         <div class="column-1">
           <p>
-          Edwin’s Hair Style was established in Woodbridge Va, on June, 2005. Our goal is to always provide excellent service. We strive on fostering a close rapport with our clients to better understand what they are looking for, and provide advice on hair styles that better meet their needs.
+          Edwin’s Hair Style was established in Woodbridge Va, in June, 2005. Our goal is to always provide excellent service. We strive on fostering a close rapport with our clients to better understand what they are looking for, and provide advice on hair styles that better meet their needs.
           </p>
         </div>
         <div class="column-2">
