@@ -20,7 +20,6 @@ export class EhsViewContact {
             (703) 494 - 8908<br/>
             14828 Build America Dr.
             Woodbridge, VA. 22191
-            Contact Us
           </div>
         </div>
       </Host>

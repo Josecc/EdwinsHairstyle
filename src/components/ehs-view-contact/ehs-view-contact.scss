@@ -21,10 +21,16 @@
   }
 
   .column-1 {
-    width: 50%;
+    @include tablet {
+      margin-right: 15px;
+      width: 50%;
+    }
   }
 
   .column-2 {
-    width: 50%;
+    @include tablet {
+      margin-left: 15px;
+      width: 50%;
+    }
   }
 }
